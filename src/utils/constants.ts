@@ -50,25 +50,25 @@ export const skills = [
 
 export const projects = [
 	{
-		name: "Hyperloop",
+		name: "Insyte",
 		image: Hyperloop,
 		projectUrl: "/projects/hyperloop",
 		tech: "Next JS",
 	},
 	{
-		name: "Whatsapp Web Clone",
+		name: "ToborFairy",
 		image: WhatsappClone,
 		projectUrl: "/projects/whatsapp-clone",
 		tech: "Next JS",
 	},
 	{
-		name: "Easymunch",
+		name: "CH4Us",
 		image: Easymunch,
 		projectUrl: "/projects/easy-munch",
 		tech: "React JS",
 	},
 	{
-		name: "React Dashboard",
+		name: "Catch Up",
 		image: ReactDashboard,
 		projectUrl: "/projects/react-dashboard",
 		tech: "React JS",

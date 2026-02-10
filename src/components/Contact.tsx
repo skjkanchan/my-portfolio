@@ -111,12 +111,12 @@ const Contact = () => {
 									/>
 								</div>
 								<div>
-									<h2 className="py-2">Nosarumen Imuentinyan</h2>
-									<p className="text-xl mt-2">Front-End Developer</p>
-									<p className="py-4 text-lg">
+									<h2 className="py-2">Sai Kanchan Javalkar</h2>
+									<p className="text-xl mt-2">Software Developer</p>
+									{/* <p className="py-4 text-lg">
 										I am available for freelance or full-time positions. Contact me and
 										let&apos;s talk.
-									</p>
+									</p> */}
 								</div>
 								<div>
 									<div className="flex justify-between items-center mt-8">
@@ -125,7 +125,7 @@ const Contact = () => {
 									</div>
 									<div className="flex items-center justify-between py-4">
 										<a
-											href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
+											href="https://www.linkedin.com/in/sai-kanchan-javalkar/"
 											target="_blank"
 											rel="noreferrer"
 										>
@@ -134,7 +134,7 @@ const Contact = () => {
 											</div>
 										</a>
 										<a
-											href="https://github.com/Sir-Rumeh/"
+											href="https://github.com/skjkanchan"
 											target="_blank"
 											rel="noreferrer"
 										>

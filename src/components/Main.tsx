@@ -10,13 +10,12 @@ const Main = () => {
 			<div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
 				<div>
 					<div data-aos="fade-left" data-aos-duration="1000">
-						<h1 className="py-4 text-gray-700">
-							Hi, I&#39;m <span className="text-primary"> Sai Kanchan Javalkar</span>
+						<h1 className="py-4 text-darkestSage">
+							Hi, I&#39;m <span className="text-darkSage"> Sai Kanchan Javalkar</span>
 						</h1>
-						<h1 className="py-2 text-gray-700">A Software Developer</h1>
+						<h1 className="py-2 text-darkestSage">A Software Developer</h1>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
-							I&#39;m focused on building stunning responsive front-end web applications
-							integrating back-end technologies.
+							I focus on building responsive web and mobile applications that integrate cleanly with backend systems and APIs.
 						</p>
 						<p className="py-4 text-gray-600 sm:max-w-[70%] m-auto text-lg">
 							I also write backend code using node.js
@@ -27,7 +26,7 @@ const Main = () => {
 					<div data-aos="fade-right" data-aos-duration="1000">
 						<div className="flex items-center justify-between max-w-[330px] m-auto py-4">
 							<a
-								href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
+								href="https://www.linkedin.com/in/sai-kanchan-javalkar/"
 								target="_blank"
 								rel="noreferrer"
 							>

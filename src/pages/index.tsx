@@ -13,7 +13,7 @@ export default function Home() {
 				<title>Sai Kanchan Javalkar | Software Developer</title>
 				<meta
 					name="description"
-					content="I’m a front-end web developer specialized in usinf react, nextjs and typescript to build exceptional user interface."
+					content="I’m a full-stack software engineer with a backend focus, building production-ready web and mobile applications and scalable systems end to end."
 				/>
 				<link rel="icon" href="/fav.ico" />
 			</Head>

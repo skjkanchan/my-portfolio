@@ -8,7 +8,7 @@ const Hyperloop = () => {
 	return (
 		<>
 			<Head>
-				<title>Nosarumen | Hyperloop FT</title>
+				<title>Nosarumen | Insyte</title>
 				<meta
 					name="description"
 					content="HyperloopFT is a high-frequency trading platform built with Next JS, offering automated trades, a guaranteed 84% annual ROI, zero-risk investing, and USDT (TRC20) payouts."
@@ -27,8 +27,8 @@ const Hyperloop = () => {
 						priority
 					/>
 					<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-						<h2 className="py-2">HyperloopFT Dashboard App</h2>
-						<h3>Next JS / Tailwind CSS / Prisma / PostgreSQL</h3>
+						<h2 className="py-2">Insyte</h2>
+						<h3>React JS/ Next JS / Typescript / Flask / Python / AWS Lambda / AWS DynamoDB / Claude Anthropic LLM / Open AI / LangGraph </h3>
 					</div>
 				</div>
 
@@ -37,31 +37,29 @@ const Hyperloop = () => {
 						<p className="text-lg">Project</p>
 						<h2>Overview</h2>
 						<p className="text-lg mt-2">
-                        This is a high-frequency trading platform that guarantees investors an 84% annual return on investment (ROI) by automating trades across various markets, including cryptocurrencies, stocks, futures, and synthetic assets. The platform emphasizes zero-risk investing with a capital-back guarantee, offering 7% monthly ROI and additional referral rewards. Payouts are automated and processed in USDT (TRC20), ensuring secure and efficient transactions.
-						</p>
+						Insyte is an intelligent real-estate analysis platform powered by Agentic-AI that enables property managers and clients to explore commercial properties, automate insights, and make data-driven decisions. The system blends geospatial search, document intelligence, and conversational AI into a single interface, providing instant, context-aware answers about properties, locations, and investment factors. It features agentic AI workflows for natural-language queries, geolocation parsing, and map-based property visualization. Users can interact with an AI assistant powered by OpenAI and Anthropic models to analyze documents, compare sites, and retrieve information in real time, ensuring faster and more accurate decision-making.						</p>
 						<p className="text-lg mt-4">🌟 key features:</p>
 						<ol className="text-lg mt-2">
-                            <li>Automated High-Frequency Trading</li>
-                            <li>Multi-Market Trading (Crypto, Stocks, Futures, Synthetic Assets)</li>
-                            <li>Instant & Automated USDT (TRC20) Payouts</li>
-                            <li>Referral & Ranking Rewards Program</li>
-                            <li>Secure and Transparent Transactions</li>
-                            <li>Subscription to Trading Signal providers</li>
+                            <li>Agentic-AI Powered Property Search</li>
+                            <li>Interactive Map Visualization for Queried Properties</li>
+                            <li>AI Chatbot for Real-Time Property and Real-Estate Insights</li>
+                            <li>Document Analysis and Contextual Information Retrieval</li>
+                            <li>Agent-AI Powered Graph Visualization from Queries</li>
                         </ol>
 						<div className="flex flex-col sm:flex-row items-center justify-start gap-6 mt-4 ">
-							<a
+							{/* <a
 								href="https://hyperloopft.com"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<button className="px-8 py-2 tracking-widest">Live Site</button>
-							</a>
+							</a> */}
 							<a
 								href="https://hyperloopft.com/resources?tab=user_guide"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="px-8 py-2 tracking-widest">Video Demo</button>
+								<button className="px-8 py-2 tracking-widest">Project Demo</button>
 							</a>
 						</div>
 					</div>
@@ -71,17 +69,36 @@ const Hyperloop = () => {
 								<p className="text-center font-bold pb-2">Technologies</p>
 								<div className="grid grid-cols-3 md:grid-cols-1 ">
 									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> React JS
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
 										<RiRadioButtonFill className="pr-1" /> Next JS
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Tailwind CSS
+										<RiRadioButtonFill className="pr-1" /> Typescript
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Prisma ORM
+										<RiRadioButtonFill className="pr-1" /> Flask
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> PostgreSQL
+										<RiRadioButtonFill className="pr-1" /> Python
 									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> AWS Lambda
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> AWS DynamoDB
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Claude Anthropic LLM
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> OpenAI
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> LangGraph
+									</p>
+									
 								</div>
 							</div>
 						</div>

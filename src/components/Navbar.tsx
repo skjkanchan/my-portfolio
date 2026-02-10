@@ -5,11 +5,12 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import NavLogo from "public/assets/navLogo.png";
+import Headshot from "public/assets/SaiKanchan_Javalkar_Headshot.jpg";
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
 	const [shadow, setShadow] = useState(false);
-	const navBg = "#ecf0f3";
+	const navBg = "#F8FAF6";
 	const linkColor = "#1f2937";
 
 	const handleNav = () => {
@@ -40,11 +41,11 @@ const Navbar = () => {
 				<Link href="/">
 					<a>
 						<Image
-							src={NavLogo}
+							src={Headshot}
 							alt="/"
-							width="125"
-							height="50"
-							className="cursor-pointer"
+							width="70"
+							height="70"
+							className="cursor-pointe rounded-full border-4 border-primary shadow-lg"
 							loading="lazy"
 						/>
 					</a>

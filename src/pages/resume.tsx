@@ -3,10 +3,10 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedinIn, FaDownload } from "react-icons/fa";
-import ResumeShot from "public/assets/Nosarumen_Imuentinyan_Resume.jpg";
+import ResumeShot from "public/assets/Sai_Kanchan_Javalkar_Resume(Portfolio).png";
 
 const ResumePdf = () => {
-	const resumePdfLink = "/assets/Nosarumen_Imuentinyan_Resume.pdf";
+	const resumePdfLink = "/assets/Sai_Kanchan_Javalkar_Resume__Copy_.pdf";
 	return (
 		<>
 			<div className="relative">
@@ -38,16 +38,16 @@ const Resume = () => {
 			<div className="max-w-[940px] mx-auto p-2 pt-[120px]">
 				<h2 className="text-center">Resume</h2>
 				<div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-					<h2 className="text-center">Nosarumen Imuentinyan</h2>
+					<h2 className="text-center">Sai Kanchan Javalkar</h2>
 					<div className="flex">
 						<a
-							href="https://www.linkedin.com/in/nosarumen-imuentinyan/"
+							href="https://www.linkedin.com/in/sai-kanchan-javalkar/"
 							target="_blank"
 							rel="noreferrer"
 						>
 							<FaLinkedinIn title="Linkedin" size={20} style={{ marginRight: "1rem" }} />
 						</a>
-						<a href="https://github.com/Sir-Rumeh/" target="_blank" rel="noreferrer">
+						<a href="https://github.com/skjkanchan/" target="_blank" rel="noreferrer">
 							<FaGithub title="GitHub" size={20} style={{ marginRight: "1rem" }} />
 						</a>
 					</div>
@@ -55,13 +55,13 @@ const Resume = () => {
 				<div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
 					<div className="hidden sm:block">
 						<p>
-							Team Player <span className="px-1">|</span> Web Development{" "}
+							Leadership <span className="px-1">|</span> Full-Stack Development{" "}
 							<span className="px-1">|</span> Analytics & Problem Solving
 						</p>
 					</div>
 					<div className="block sm:hidden">
-						<p>Team Player</p>
-						<p className="py-2">Web Development</p>
+						<p>Leadership</p>
+						<p className="py-2">Full-Stack Development</p>
 						<p>Analytics & Problem Solving</p>
 					</div>
 				</div>

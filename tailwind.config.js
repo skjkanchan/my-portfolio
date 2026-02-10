@@ -7,6 +7,10 @@ module.exports = {
 				primary: "#44A8B3",
 				lightPrimary: "#aeecf3",
 				secondary: "#6dcfda",
+				lightSage: "#E5EFDB",
+				sage: "#AABD96",
+				darkSage: "#91A47D",
+				darkestSage: "#303629"
 			},
 		},
 	},

@@ -4,28 +4,17 @@ import BasicTabs from "./Tabs";
 
 const Experience = () => {
 	const FCMBExperience = {
-		companyName: "First City Monument Bank",
-		role: "Front-End Developer",
-		duration: "July 2022 - Present",
+		companyName: "Walmart Global Tech",
+		role: "Software Engineer Intern",
+		duration: "June 2025 - August 2025",
 		activities: [
-			"Collaborated with a team of professional engineers to plan, design, build, and implement the user interface systems of web-based applications and provide a satisfactory user experience with no issues, errors, or downtime.",
-			"Contributed to the building and optimization of some in-house applications to optimize productivity as well as customer-facing account management applications, which increased customer inflow by automating account opening processes.",
-			"Played an active role in testing, troubleshooting, and resolving issues such as those related to performance, accessibility,  browser compatibility, and security.",
-			"Reviewing and approving pull requests from other team members.",
-			"Collaborating on large codebase with other developers using git and the Microsoft Azure DevOps cloud solutions platform.",
+			"Developed the 1st dynamic filtering system for the Compliance Lookup and Management Portal, a platform that manages rules for handling items during returns and merchandise shipments, resulting in optimized querying of 600+ rules for Walmart associates. Deployed using Kubernetes and Docker",
+			"Created a Spring Boot API endpoint with PostgreSQL and Swagger.UI to fetch rules based on service tag, and built a system in Java that dynamically filters rules across any parameter while synchronizing results with search queries.",
+			"Built custom reusable UI components in React and Typescript – a state-aware filtering module and dynamic dropdown menu.",
+			"Implemented and executed comprehensive unit, functional, integration, and end-to-end tests across backend services and UI components using JUnit, Spring Test, and Jest to ensure code quality and system reliability.",
 		],
 	};
 
-	const MuzzlabExperience = {
-		companyName: "Muzzlab Technologies",
-		role: "Front-End Developer",
-		duration: "April 2020 - July 2022",
-		activities: [
-			"Collaborated with the project manager and backend engineer.",
-			"Designed and developed the client side of the sub-company’s ( Illusion Decals ) website while writing re-usable and easy to maintain codes.",
-			"Ensured cross-platform development and optimization for mobile responsiveness.",
-		],
-	};
 
 	return (
 		<div id="experience" className="w-full lg:h-screen p-2 ">
@@ -38,10 +27,9 @@ const Experience = () => {
 				<h2 className="py-4">Where I&apos;ve Worked</h2>
 				<div className="mt-2 ">
 					<BasicTabs
-						tabList={["FCMB", "Muzzlab"]}
+						tabList={["Walmart Global Tech"]}
 						tabPanel={[
-							<Details key={"FCMB"} experienceDetails={FCMBExperience} />,
-							<Details key={"mUZZLAB"} experienceDetails={MuzzlabExperience} />,
+							<Details key={"Walmart Global Tech"} experienceDetails={FCMBExperience} />,
 						]}
 					/>
 				</div>

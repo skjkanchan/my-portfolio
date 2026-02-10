@@ -7,9 +7,9 @@ import Git from "public/assets/skills/git.png";
 import Docker from "public/assets/skills/docker.png";
 import Tailwind from "public/assets/skills/tailwind.png";
 //
-import WhatsappClone from "public/assets/projects/whatsapp-web-clone/whatsapp.png";
-import Easymunch from "public/assets/projects/easy-munch/munch.png";
-import ReactDashboard from "public/assets/projects/react-dashboard/dashboard.png";
+import WhatsappClone from "public/assets/projects/whatsapp-web-clone/Screenshot 2026-02-10 at 4.35.56 PM.png";
+import Easymunch from "public/assets/projects/easy-munch/Screenshot 2026-02-10 at 4.34.05 PM.png";
+import ReactDashboard from "public/assets/projects/react-dashboard/16DC60E1-DBE8-4087-960C-D1CE2E7DA61C_4_5005_c.jpeg";
 import MovieApp from "public/assets/projects/react-movie-app/movie.png";
 import Hyperloop from "public/assets/projects/hyperloop/hyperloop.png";
 

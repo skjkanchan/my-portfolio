@@ -27,8 +27,8 @@ const EasyMunch = () => {
 						priority
 					/>
 					<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-						<h2 className="py-2">Easymunch Web App</h2>
-						<h3>React JS / Bootstrap </h3>
+						<h2 className="py-2">CH4US Methane Leak Detection Tool</h2>
+						<h3>Javascript / Python / HTML / CSS / JSCharting / Pandas </h3>
 					</div>
 				</div>
 
@@ -37,40 +37,37 @@ const EasyMunch = () => {
 						<p className="text-lg">Project</p>
 						<h2>Overview</h2>
 						<p className="text-lg mt-2">
-							Contributed to building a one-of-a-kind food delivery service website, crafted with
-							love and expertise using the powerful React framework.
+							Won 2nd Place at HackUTD (2nd largest hackathon in US, 1st largest in TX, 1000+ participants) for EOG Resources.
+
 						</p>
 						<p className="text-lg mt-2">
-							This web app boasts a user-friendly and intuitive design, making it effortless to
-							navigate and browse through a wide range of cuisines and restaurants. The React
-							framework ensures a seamless and responsive experience on both desktop and mobile
-							devices, so you can place orders anytime, anywhere.
+							Built a leak detection tool in a team of 4 designed to track and identify methane leakage zones using data from 18 sensors at a given facility (ch4us.co).
+
 						</p>
 						<p className="text-lg mt-2">
-							Placing an order is a breeze! With just a few clicks, you can customize your order,
-							add items to your cart, and select delivery or pickup options. Our secure payment
-							system guarantees a smooth and safe transaction.
+							Learned and applied Javascript and JSCharting (1st time) within 24 hours, developing a professional tool to increase environmental monitoring efforts.
+
 						</p>
 
 						<p className="text-lg mt-4">🌟 key features:</p>
 						<ol className="text-lg mt-2">
-							<li>User Authentication</li>
-							<li>Restaurant and Menu Listings</li>
-							<li>Online Ordering</li>
-							<li>Customer Reviews and Ratings</li>
-							<li>Account Management</li>
+							<li>Methane Concentration Monitoring</li>
+							<li>Actual vs. Predicted Emissions Visualization</li>
+							<li>Wind-Based Methane Dispersion Mapping</li>
+							<li>Gaussian Plume Model Integration</li>
+							<li>Visual Data Analysis Dashboard</li>
 						</ol>
 						<div className="flex flex-col sm:flex-row items-center justify-start gap-6 mt-4 ">
 							{/* HERE */}
 							<a
-								href="https://github.com/prime-infinity/easymunch"
+								href="hhttps://github.com/hacksolutions/hacksolutions.github.io"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="px-8 py-2 tracking-widest">Github Code</button>
+								<button className="px-8 py-2 tracking-widest">Github</button>
 							</a>
-							<a href="https://easymunch.netlify.app/" target="_blank" rel="noreferrer">
-								<button className="px-8 py-2 tracking-widest">Live Site</button>
+							<a href="https://devpost.com/software/ch4-us" target="_blank" rel="noreferrer">
+								<button className="px-8 py-2 tracking-widest">Video Demo</button>
 							</a>
 						</div>
 					</div>
@@ -80,14 +77,24 @@ const EasyMunch = () => {
 								<p className="text-center font-bold pb-2">Technologies</p>
 								<div className="grid grid-cols-3 md:grid-cols-1 ">
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> React JS
-									</p>
-									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Bootstrap
-									</p>
-									<p className="text-gray-600 py-2 flex items-center">
 										<RiRadioButtonFill className="pr-1" /> Javascript
 									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Python
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> HTML
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> CSS
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> JSCharting
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Pandas
+									</p>
+									
 								</div>
 							</div>
 						</div>

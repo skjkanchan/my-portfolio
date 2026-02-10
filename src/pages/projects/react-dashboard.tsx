@@ -27,8 +27,8 @@ const ReactDashboard = () => {
 						priority
 					/>
 					<div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-						<h2 className="py-2">Admin Dashboard App</h2>
-						<h3>React JS / Tailwind CSS / Syncfusion Components</h3>
+						<h2 className="py-2">Catch Up</h2>
+						<h3>Flutter SDK / Dart / FFmpeg / Firebase / Git / Github / Figma </h3>
 					</div>
 				</div>
 
@@ -37,39 +37,41 @@ const ReactDashboard = () => {
 						<p className="text-lg">Project</p>
 						<h2>Overview</h2>
 						<p className="text-lg mt-2">
-							This is a simple frontend admin dashboard application built using syncfusion UI
-							components
+							Created a mobile application with a team of 4 through the software development lifecycle to break the barrier between reality
+and fiction in social media and enhance communication among friends through group vlog-style movies.
+						</p>
+						<p className="text-lg mt-2">
+							Integrated Firebase authentication, storage (1 GB), and real-time database with a Flutter SDK frontend and Dart
+backend to support secure video uploads, daily video recording, group communication, and user authentication
+						</p>
+						<p className="text-lg mt-2">
+							Integrated FFmpeg for multi-video processing/concatenation with robust error handling and testing to ensure system reliability.
 						</p>
 						<p className="text-lg mt-4">🌟 key features:</p>
 						<ol className="text-lg mt-2">
-							<li>Data Visualization</li>
-							<li>Data Filter, Sort and Search</li>
-							<li>Data Analytics</li>
-							<li>Dashboard Customization</li>
-							<li>Mobile Responsiveness</li>
+							<li>User Authentication</li>
+							<li>Video Upload</li>
+							<li>Video Recording</li>
+							<li>Group Formation and Communication</li>
+							<li>Video Concatenation</li>
+							<li>Daily Prompts</li>
+							<li>Video Release</li>
 						</ol>
 						<div className="flex flex-col sm:flex-row items-center justify-start gap-6 mt-4 ">
 							{/* HERE */}
 							<a
-								href="https://github.com/Sir-Rumeh/react-dashboard-project"
+								href="https://github.com/acm-projects/Catch-Up"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="px-8 py-2 tracking-widest">Github Code</button>
+								<button className="px-8 py-2 tracking-widest">Github</button>
 							</a>
 							<a
-								href="https://react-dashboard-project-v1.netlify.app"
+								href="https://www.youtube.com/watch?v=sY_RsbvHzk4&t=2889s"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<button className="px-8 py-2 tracking-widest">Live Site</button>
-							</a>
-							<a
-								href="https://www.linkedin.com/feed/update/urn:li:activity:7079116650620366848?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079116650620366848%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BtmGI9ecqTOa43FFPmeWPhg%3D%3D"
-								target="_blank"
-								rel="noreferrer"
-							>
-								<button className="px-8 py-2 tracking-widest">Video Demo</button>
+								<button className="px-8 py-2 tracking-widest">Live Demo</button>
 							</a>
 						</div>
 					</div>
@@ -79,13 +81,25 @@ const ReactDashboard = () => {
 								<p className="text-center font-bold pb-2">Technologies</p>
 								<div className="grid grid-cols-3 md:grid-cols-1 ">
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> React JS
+										<RiRadioButtonFill className="pr-1" /> Flutter SDK
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Tailwind CSS
+										<RiRadioButtonFill className="pr-1" /> Dart
 									</p>
 									<p className="text-gray-600 py-2 flex items-center">
-										<RiRadioButtonFill className="pr-1" /> Syncfusion
+										<RiRadioButtonFill className="pr-1" /> FFmpeg
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Firebase
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Git
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Github
+									</p>
+									<p className="text-gray-600 py-2 flex items-center">
+										<RiRadioButtonFill className="pr-1" /> Figma
 									</p>
 								</div>
 							</div>
